@@ -1,0 +1,42 @@
+Common Style Decisions for Website
+
+color scheme:
+
+#FFE224
+#00000
+#00ffff
+#7D0A75
+#ffffff
+
+background color/image: 
+#00000
+#7D0A75
+#7D0A75
+
+
+font style: 
+Timess New Roman  Serrif
+
+text color:
+#FFE224
+fff
+
+link style: 
+decoration: none
+color: fff
+
+
+link style on hover:
+color: #00ffff
+transition: 3s
+decoration: underline
+background-color: #ffffff
+
+h1-h6 style:
+center
+
+margins:
+10px 0px
+
+padding:
+3px 5px 11px 0px 10px 24px 25px 
