@@ -12,22 +12,42 @@
   <link rel="icon" type="png/x-icon" href="resources/Pictures/global.png">
   
 </head>
-<header>
+<header class="row">
+  <div class="col-4 col-m-12">
   <h1>Box model Demonstration</h1>
 <img src="resources/Pictures/header_image.jpg" alt="space" width="25%"
 height="75%">
 <p>This is some example text</p>
+</div>
 </header>
-<nav>
+<nav class="row">
+  <div class="col-4 col-m-12">
 <ul>
   <li><a href="HaydenHartHW2.html" title="">Home</a></li>
   <li><a href="HowToPage.html" title="">How to publish</a></li>
-  <li><a href="Hayden Hart HW1.html" title=""> Trees</a></li>
-  <li><a href="Index_copy.html" title="">Demonstration page</a></li>
+  <li><a href="HaydenHartHW1.html" title=""> Trees</a></li>
+  <li><a href="Index_copy.html" title="">Dem page</a></li>
+  <li>
+    <div class="flyout">
+      <button>See More</button>
+      <div class="flyout-content">
+        <a href="HaydenHartHW2.html" title="">Home</a>
+        <a href="HowToPage.html" title="">How to publish</a>
+        <a href="HaydenHartHW1.html" title=""> Trees</a>
+        <a href="Index_copy.html">Dem page</a>
+      </div>
+  
+  
+  
+  
+  
+  
+    </div>
 </ul>
+</div>
 </nav>
 
-
+<main class="col-9">
 <h1>Concepts</h1>
 <h2>CSS Box Model</h2>
 <img src="resources/Pictures/Box_model.jpeg" alt="box model picture">
@@ -118,6 +138,8 @@ height="75%">
     <td>This contrast ratio passes AA standards</td>
   </tr>
 </table>
+
+
 <h2>Postioning</h2>
 <div class="Relative">The position is relative to its normal position
 
@@ -134,8 +156,10 @@ height="75%">
 <div class="v-shadow2">Another Vertical property</div>
 <div class="blur">Blur property</div>
 <div class="blur2">Another Blur property</div>
-
-<footer>
+</main>
+<aside>
+</aside>
+<footer class="col-7">
   <p>Here’s where your footer can rescue falling visitors. If they’ve made 
     it down this far, they must not have found what they were looking for.
      Time to offer some more options.</p>
